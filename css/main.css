@@ -1,1 +1,83 @@
 
+
+		body {background-color: #558564;
+			padding: 0;
+			margin:0;
+			 }
+		
+		header {background-color: #A3C4BC;
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				align-items: center;
+				padding-left: 20px;
+				}
+		header.sticky{position: fixed;
+					left: 0;
+					right: 0;
+					animation: slide-down 2s ease-in;
+
+		}
+
+		
+		.login {padding-top: 100px;
+				padding-left: 300px;}
+
+		a {color: #FFE4F3;}
+
+		label {background-color: #1C2826;
+				color:#F7F7FF;}
+		
+		form {width: 100%;}
+
+		b  {font-size: 60px;
+			color: #6F7D8C;
+			background-color: }
+
+		img {width: 50%;
+			 height: 50%;}
+
+		p {color: #01BAEF;
+			font-family: helvetica;}
+
+		fieldset {width: 50%;}
+
+		h1 {color: }
+
+		.main-nav {padding: 0;
+				   margin: 0;
+				  }
+		.content {
+			height: 2000px;
+		}
+		.main-nav li {display: inline-block;
+					  list-style-type: none;
+					  padding: 10px 20px;
+					  position: relative;
+					  font-family: 'Niramit', sans-serif;
+					  transition: background-color .5s ease;
+					  }
+		.main-nav li a {text-decoration: none;
+						color: #1C2826;
+					 transition: background-color .5s ease;}
+		
+		.main-nav li:hover {background-color: #F9F8F8;}
+
+		.main-nav li:hover a {color: #1F0322;}
+		
+		.dropdown {display: none;
+				   position: absolute;
+				   background-color: #F9F8F8;
+				   margin: 10px 0 0 -20px ;
+				   padding: 0;
+				  }
+		
+		.dropdown li{display: block;
+						 transition: background-color .5s ease;
+					}
+
+	    .main-nav li:hover ul {display: block;
+
+	    }
+	    
